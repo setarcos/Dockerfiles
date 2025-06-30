@@ -2,3 +2,4 @@
 
 * rust
 * texlive
+* tauri-xwin
