@@ -3,7 +3,7 @@ FROM registry.gitlab.com/islandoftex/images/texlive
 RUN sed -i 's/deb.debian.org/mirrors.pku.edu.cn/g' /etc/apt/sources.list.d/debian.sources && \
     apt-get update && \
     apt-get dist-upgrade -y && \
-    apt-get install -y wget xz-utils && \
+    apt-get install -y wget xz-utils openssh-client && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
