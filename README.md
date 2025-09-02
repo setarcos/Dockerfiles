@@ -3,3 +3,4 @@
 * rust
 * texlive
 * tauri-xwin
+* debian-dev
