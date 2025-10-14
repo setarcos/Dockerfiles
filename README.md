@@ -4,3 +4,4 @@
 * texlive
 * tauri-xwin
 * debian-dev
+* qt5-dev
